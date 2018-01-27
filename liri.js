@@ -135,16 +135,3 @@ function doWhatItSays (file) {
 
 
 action();
-
-
-// function saveToLog(input) {
-// 	fs.appendFile("log.txt", '\r\n\r\n');
-
-// 	fs.appendFile("log.txt", JSON.stringify(input), function(err) {
-// 		if (err) {
-// 			return console.log(err);
-// 		}
-
-// 		console.log("log.txt has been updated.");
-// 	})
-// }
